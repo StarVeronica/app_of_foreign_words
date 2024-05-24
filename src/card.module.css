@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  padding: 10px 80px;
+  background-color: rgb(255, 246, 235);
+  border: 1px solid rgb(255, 225, 187);
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 300%;
+  color: rgb(92, 54, 0);
+}
+
+p {
+  font-size: 150%;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 120%;
+  color: white;
+  background-color: rgb(88, 80, 71);
+  border: 1px solid rgb(88, 80, 71);
+  border-radius: 5px;
+}
+
+.check {
+  padding-bottom: 5px;
+  margin: 5px;
+  color: green;
+  font-size: 180%;
+  font-weight: 700;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(66, 60, 53);
+  cursor: pointer;
+}
+
+.button:active {
+  color: rgb(88, 80, 71);
+  background-color: white;
+  border: 1px solid white;
+}/*# sourceMappingURL=card.module.css.map */

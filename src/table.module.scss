@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    width: 90vw;
+    justify-content: center;
+    grid-template-columns: 5% repeat(3, 27%) 150px;
+
+    .cell {
+        display: flex;
+        padding: 5px;
+        font-size: 170%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(255, 246, 235);
+        border: 1px solid rgb(92, 54, 0);
+    }
+}
