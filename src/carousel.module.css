@@ -1,0 +1,15 @@
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+.arrow:hover {
+  box-shadow: 0px 5px 10px rgb(88, 80, 71);
+}/*# sourceMappingURL=carousel.module.css.map */

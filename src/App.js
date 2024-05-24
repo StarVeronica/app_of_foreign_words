@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
 import Table from './components/Table';
+import Carousel from './components/Carousel';
 import styles from './styles.css';
 import icon from './images/icon.png';
 export { word_list };
@@ -22,9 +22,7 @@ function App() {
       </header>
       <body>
         <h1>Изучение иностранных слов</h1>
-        <div>
-          <Card english={word_list[0].english} russian={word_list[0].russian} transcription={word_list[0].transcription} tags={word_list[0].tags}></Card>
-        </div>
+        <Carousel></Carousel>
         <h1>Таблица слов</h1>
         <Table></Table>
         <br></br>
