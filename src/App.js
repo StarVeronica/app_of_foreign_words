@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Table from './components/Table';
-import Carousel from './components/Carousel';
+import Menu from './components/Menu';
 import styles from './styles.css';
-import icon from './images/icon.png';
 export { word_list };
 
 
@@ -13,26 +10,8 @@ const word_list = [{"id":"15393","english":"news","transcription":"[njuːs]","ru
 function App() {
   return (
     <div className="App">
-      <header>
-        <img src={icon} alt="icon" className="icons" />
-        <a href=''>Главная</a>
-        <a href=''>Карточки</a>
-        <a href=''>Таблица</a>
-        <a href=''>Подробнее</a>
-      </header>
-      <body>
-        <h1>Изучение иностранных слов</h1>
-        <Carousel></Carousel>
-        <h1>Таблица слов</h1>
-        <Table></Table>
-        <br></br>
-      </body>
-      <footer>
-        <a href=''>Главная</a>
-        <a href=''>Карточки</a>
-        <a href=''>Таблица</a>
-        <a href=''>Подробнее</a>
-      </footer>
+      <Menu></Menu>
+      <footer></footer>
     </div>
   );
 }

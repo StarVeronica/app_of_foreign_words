@@ -27,14 +27,15 @@ function Carousel(props) {
     }
 
     return (
-        <>
+        <body>
+            <h1>Изучение слов</h1>
             <div className={styles.carousel}>
                 <img src={left_arrow} alt='left arrow' className={styles.arrow} onClick={handleLeft} />
                 <Card english={list[counter].english} russian={list[counter].russian} transcription={list[counter].transcription} ></Card>
                 <img src={right_arrow} alt='right arrow' className={styles.arrow} onClick={handleRight} />
             </div>
             <h1>{counter + 1}/{list.length}</h1>
-        </>
+        </body>
     );
 }
 
