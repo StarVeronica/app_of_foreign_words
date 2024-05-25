@@ -34,10 +34,6 @@ p {
   font-weight: 700;
 }
 
-.check:hover {
-  cursor: pointer;
-}
-
 .button:hover {
   background-color: rgb(66, 60, 53);
   cursor: pointer;
