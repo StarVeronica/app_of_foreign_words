@@ -41,7 +41,7 @@ function EditBtn(props) {
 
         elm = document.getElementById(num + "btns"); 
         let btn = createRoot(elm);
-        btn.render([<YesBtn />, <NoBtn english={props.english} russian={props.russian} transcription={props.transcription} num={props.num}/>]);
+        btn.render([<YesBtn checkValid={props.checkValid} num={props.num} />, <NoBtn english={props.english} russian={props.russian} transcription={props.transcription} num={props.num} checkValid={props.checkValid} />]);
     }
 
     return (

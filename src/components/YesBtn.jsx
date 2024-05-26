@@ -3,8 +3,10 @@ import yes from '../images/yes.png';
 
 function YesBtn(props) {
 
+    const {num} = props;
+
     return (
-        <div className={styles.btn}>
+        <div className={styles.btn} onClick={() => props.checkValid(num)}>
             <img src={yes} alt="yes" className={styles.icon} />
         </div>
     );

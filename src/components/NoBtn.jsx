@@ -38,7 +38,7 @@ function NoBtn(props) {
 
         elm = document.getElementById(num + "btns"); 
         let btn = createRoot(elm);
-        btn.render([<EditBtn english={props.english} russian={props.russian} transcription={props.transcription} num={props.num}/>, <DltBtn/>]);
+        btn.render([<EditBtn english={props.english} russian={props.russian} transcription={props.transcription} num={props.num} checkValid={props.checkValid} />, <DltBtn/>]);
     }
 
     return (

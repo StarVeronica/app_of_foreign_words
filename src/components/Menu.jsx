@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { word_list } from "../App";
 import icon from '../images/icon.png';
 import Table from "./Table";
 import Carousel from "./Carousel";
@@ -34,6 +35,6 @@ function Home() {
 
 function Game() {
     return (
-        <Carousel></Carousel>
+        <Carousel list={word_list} ></Carousel>
     );
 }

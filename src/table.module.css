@@ -12,4 +12,14 @@
   align-items: center;
   background-color: rgb(255, 246, 235);
   border: 1px solid rgb(92, 54, 0);
+}
+.container .incorrect {
+  display: flex;
+  padding: 5px;
+  font-size: 170%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 246, 235);
+  border: 2px solid red;
+  border-radius: 2px;
 }/*# sourceMappingURL=table.module.css.map */
